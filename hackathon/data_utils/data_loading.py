@@ -15,7 +15,8 @@ from artemis.image_processing.image_utils import BoundingBox, BGRColors
 from dataclasses_serialization.json import JSONSerializer
 from hackathon.data_utils.misc_data_utils import make_backup_file_copy
 
-DEFAULT_DATASET_FOLDER = os.path.expanduser(os.path.join('~', 'Downloads', 'eagle_eyes_hackathon_dataset'))
+# DEFAULT_DATASET_FOLDER = os.path.expanduser(os.path.join('~', 'Downloads', 'eagle_eyes_hackathon_dataset'))
+DEFAULT_DATASET_FOLDER = os.path.expanduser('/scratch/projects/vision/data/eeh')
 
 
 def get_default_dataset_folder() -> str:

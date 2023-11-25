@@ -14,6 +14,11 @@ We will test your model loader with the following code:
 
 So if you pass test_submission.py you should be good to go.
 """
+
+import sys
+sys.path.insert(0, '/scratch/projects/vision/code/eeh')
+print(sys.path)
+
 from dataclasses import dataclass
 from typing import Sequence, Optional, Iterator
 from hackathon.data_utils.data_loading import AnnotatedImageDataLoader, BGRImageArray

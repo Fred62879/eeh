@@ -1,3 +1,8 @@
+
+import sys
+sys.path.insert(0, '/scratch/projects/vision/code/eeh')
+print(sys.path)
+
 from hackathon.data_utils.data_loading import AnnotatedImageDataLoader, get_default_dataset_folder
 from hackathon.ui_utils.ui_view_dataset import open_annotation_database_viewer
 

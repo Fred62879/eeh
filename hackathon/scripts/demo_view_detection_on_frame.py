@@ -1,3 +1,8 @@
+
+import sys
+sys.path.insert(0, '/scratch/projects/vision/code/eeh')
+print(sys.path)
+
 from hackathon.data_utils.data_loading import AnnotatedImage, AnnotatedImageDataLoader
 from hackathon.model_utils.interfaces import IDetectionModel
 from hackathon.submissions.sample_submission.submission import MyModel
